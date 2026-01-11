@@ -6,7 +6,7 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
 const SPREADSHEET_ID = "1VYnPlPVR1W8vYFN0acUY1Ky3DCj8TFLAEod2ZBoa_wM";
-const SHEET_NAME = "DonHang";
+const SHEET_NAME = "KhachHang";
 
 const credentials = JSON.parse(process.env.GOOGLE_CREDENTIALS);
 
